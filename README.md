@@ -11,28 +11,26 @@
   - [Questions](#questions)
 
   ## Description
-  This Homework assignment was completed for Unit Nineteen of the U of M Bootcamp, to practice configuring a progressive web application, primarily on the client side. The complete set of responses is gathered to leverage and update a database; the user can view or add employees, roles, and departments, as well as update employees' roles and managers. I learned a lot about SQL and inner joins that display data retrieved from objects built in constructor classes - it would be very easy to add more questions and functions, to allow the user to store and get a lot more data!
+  This Homework assignment was completed for Unit Nineteen of the U of M Bootcamp, to practice configuring a progressive web application, primarily on the client side. The deployed JATE app can be installed locally, so you can use it at home on your machine to type and edit plaintext! I found this simple tool so compelling because we use PWAs constantly in modern daily life, and I even recently had installed Snapchat's local client, so it was awesome to get a sense of how that stuff works.
 
   ## Installation
-  To install this project after copying down the repo, you will first need to run npm init (-y for default settings) on the project root, which should grant you access to the necessary soft; Use of other/newer versions of inquirer are not recommended for this project unless I can figure out how to update the inquirer syntax in the actual js code.
+  To install this project after copying down the repo, you will first need to run npm install (-y for default settings) on the project root, which should grant you access to the necessary soft; Use of other/newer versions of inquirer are not recommended for this project unless I can figure out how to update the inquirer syntax in the actual js code.
 
   ## Usage
-  1. To use this project, ensure you have [Postgres](https://www.postgresql.org/download/) and the node packages installed as specified in the Installation section above.
-  2. Open a terminal on the db folder and run psql postgres.
-  3. In Postgres, run \i schema.db to build the db.
-  4. In Postgres, run \i seeds.db to seed the db.
-  5. Open a separate terminal on the project root and simply run node index.js - from there, just answer the questions!
+  1. To use this project, ensure you have the node packages installed as specified in the Installation section above.
+  2. Open a terminal on the db folder and run npm start-dev.
+  3. Feel free to download and play around with JATE! It's that simple!
 
-  [A video tutorial for using content-management-system](https://drive.google.com/file/d/1yQuKcbh9Tuz5dCkIeQyQv9uio7ZEFu5d/view?usp=sharing)
+  [Deployed Web App](https://pwa-text-editor-8tmd.onrender.com/)
 
   ## Contributing
-  If you want to contribute to this project - particularly if you know how I might refactor the code so it works with later versions of inquirer, see my contact info in the Questions section below. I am also curious about ways we might allow the user to give information that we could apply within bounds to ensure we are giving greater design flexibility to store more interesting collections of data in the db and related outputs. Don’t hesitate to reach out! I am a beginner at this stuff but always hungry to learn from others in the community.
+  If you want to contribute to this project - particularly if you know how I might leverage the client/server code so it works as a boilerplate to build out more interesting PWA apps, see my contact info in the Questions section below. Don’t hesitate to reach out! I am a beginner at this stuff but always hungry to learn from others in the community.
 
   ## Tests
-  This app is best tested using nodemon and postman for just the GET/POST/DELETE API calls, but the interaction between the frontend and backend can also be tested directly on the browser using localhost:3001 and the console.
+  This app is best tested using npm start-dev on localhost:3000, but you can also just test it by using the deployed version on Render :)
   
   ## Credits
-  - Shoutout to the instructor Gary T Almes for the updated code commenting and instructions.
+  - Shoutout to the class instructor, Gary T Almes, for the updated code with better commenting and instructions.
 
   ## Questions
   - [Check me out on Github!](https://www.github.com/floatingpoint-exaflop)
