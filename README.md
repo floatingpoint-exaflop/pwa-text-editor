@@ -1,4 +1,4 @@
-# Module 17 Challenge: MongoDB, Mongoose ORM, and Express.js - Social Media API
+# Module 19 Challenge: Progressive Web Application - Text Editor
 
   ## Table of Contents
   - [Description](#description)
@@ -11,7 +11,7 @@
   - [Questions](#questions)
 
   ## Description
-  This Homework assignment was completed for Unit TSeventeenwelve of the U of M Bootcamp, to practice making a command-line application using Node.js packages and writing postgreSQL tables with data collected from inquirer prompts and class constructors. The complete set of responses is gathered to leverage and update a database; the user can view or add employees, roles, and departments, as well as update employees' roles and managers. I learned a lot about SQL and inner joins that display data retrieved from objects built in constructor classes - it would be very easy to add more questions and functions, to allow the user to store and get a lot more data!
+  This Homework assignment was completed for Unit Nineteen of the U of M Bootcamp, to practice configuring a progressive web application, primarily on the client side. The complete set of responses is gathered to leverage and update a database; the user can view or add employees, roles, and departments, as well as update employees' roles and managers. I learned a lot about SQL and inner joins that display data retrieved from objects built in constructor classes - it would be very easy to add more questions and functions, to allow the user to store and get a lot more data!
 
   ## Installation
   To install this project after copying down the repo, you will first need to run npm init (-y for default settings) on the project root, which should grant you access to the necessary soft; Use of other/newer versions of inquirer are not recommended for this project unless I can figure out how to update the inquirer syntax in the actual js code.
@@ -32,7 +32,7 @@
   This app is best tested using nodemon and postman for just the GET/POST/DELETE API calls, but the interaction between the frontend and backend can also be tested directly on the browser using localhost:3001 and the console.
   
   ## Credits
-  - Shoutout to [Ramon22](https://stackoverflow.com/users/1189620/ramon22) on Stack Overflow [for the advice and regex material](https://stackoverflow.com/questions/18022365/mongoose-validate-email-syntax) on validating emails in Mongoose schemas.
+  - Shoutout to the instructor Gary T Almes for the updated code commenting and instructions.
 
   ## Questions
   - [Check me out on Github!](https://www.github.com/floatingpoint-exaflop)
