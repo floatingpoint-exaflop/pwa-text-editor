@@ -14,7 +14,7 @@
   This Homework assignment was completed for Unit Nineteen of the U of M Bootcamp, to practice configuring a progressive web application, primarily on the client side. The deployed JATE app can be installed locally, so you can use it at home on your machine to type and edit plaintext! I found this simple tool so compelling because we use PWAs constantly in modern daily life, and I even recently had installed Snapchat's local client, so it was awesome to get a sense of how that stuff works.
 
   ## Installation
-  To install this project after copying down the repo, you will first need to run npm install (-y for default settings) on the project root, which should grant you access to the necessary soft; Use of other/newer versions of inquirer are not recommended for this project unless I can figure out how to update the inquirer syntax in the actual js code.
+  To install this project after copying down the repo, you will first need to run npm install on the project root, which should grant you access to the necessary soft; Use of other/newer versions of inquirer are not recommended for this project unless I can figure out how to update the inquirer syntax in the actual js code.
 
   ## Usage
   1. To use this project, ensure you have the node packages installed as specified in the Installation section above.
